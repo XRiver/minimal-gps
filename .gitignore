@@ -1,0 +1,23 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 发布签名：私钥与口令绝不能进仓库。
+# 私钥泄露 = 任何人都能伪造用你的身份签名、且能被系统当作合法升级安装的 APK。
+# 需要签名时复制 keystore.properties.example 为 keystore.properties 并填自己的值。
+/keystore.properties
+/keystore/
+*.jks
+*.keystore

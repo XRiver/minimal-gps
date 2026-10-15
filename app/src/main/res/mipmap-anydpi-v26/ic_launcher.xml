@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  启动图标：星球剪影（经纬网格）来自 Flaticon，配色与应用主题一致。
+  前景/背景/monochrome 都是按密度生成的 PNG：
+    - foreground  108dp 画布，图形只占中间约一半，避免被厂商蒙版裁掉
+    - background  纯深色
+    - monochrome  Android 13+ 主题图标，留了更大边距
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@mipmap/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+    <monochrome android:drawable="@mipmap/ic_launcher_monochrome" />
+</adaptive-icon>
